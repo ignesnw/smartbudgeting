@@ -1,4 +1,11 @@
 import { useState } from "react";
+import styles from '../styles.module.css';  // ✅ Use CSS Modules
+
+function HomePage() {
+  return <div className={styles.container}>Hello</div>;
+}
+
+export default HomePage;
 
 export default function BudgetTracker() {
   const [date, setDate] = useState(new Date().toISOString().split("T")[0]);
