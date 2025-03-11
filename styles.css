@@ -1,0 +1,76 @@
+/* General Styling */
+body {
+  background-color: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 25%;
+  background-color: #222;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.sidebar h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.sidebar input, .sidebar button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.sidebar input {
+  background-color: #333;
+  color: white;
+}
+
+.sidebar button {
+  background-color: #e63946;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar button:hover {
+  background-color: #d62839;
+}
+
+/* Main Section */
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+}
+
+.savings-box {
+  background-color: #222;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.savings-box h3 {
+  font-size: 18px;
+}
+
+.savings-box p {
+  font-size: 22px;
+  font-weight: bold;
+}
