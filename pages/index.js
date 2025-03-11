@@ -1,5 +1,4 @@
 import { useState } from "react";
-import '../styles.css';
 
 export default function BudgetTracker() {
   const [date, setDate] = useState(new Date().toISOString().split("T")[0]);
